@@ -1,5 +1,7 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
+// @ts-expect-error
+import { HashLink } from 'react-router-hash-link';
 import { Page } from 'routes/MainRoute';
 import './index.css';
 
@@ -9,16 +11,12 @@ interface MenuItemProps {
 }
 
 export const MenuItem: React.FC<MenuItemProps> = ({ page, text }) => {
+  const location = useLocation();
+  const isActivePage = location.hash.replace('#', '') === page;
+
   return (
-    <NavLink
-      style={({ isActive }) => {
-        return {
-          color: isActive ? 'white' : 'rgba(255,255,255,.5)'
-        };
-      }}
-      className="menuItem"
-      to={page}>
+    <HashLink smooth className={`menuItem ${isActivePage ? 'active' : ''}`} to={`#${page}`}>
       {text}
-    </NavLink>
+    </HashLink>
   );
 };
