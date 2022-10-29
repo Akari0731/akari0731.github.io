@@ -3,12 +3,17 @@ import { WorkPage } from 'components/Main/WorkPage';
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 
+export enum Page {
+  INTRO = 'intro',
+  WORK = 'work'
+}
+
 export const MainRoute: React.FC = () => {
   return (
     <Routes>
       <Route path="/" element={<IntroPage />} />
-      <Route path="/intro" element={<IntroPage />} />
-      <Route path="/work" element={<WorkPage />} />
+      <Route path={`/${Page.INTRO}`} element={<IntroPage />} />
+      <Route path={`/${Page.WORK}`} element={<WorkPage />} />
     </Routes>
   );
 };
