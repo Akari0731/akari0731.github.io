@@ -1,22 +1,19 @@
-import { IntroPage } from 'components/Main/IntroPage';
-import { WorkPage } from 'components/Main/WorkPage';
+import { AboutPage } from 'components/Main/AboutPage';
+import { EducationPage } from 'components/Main/EducationPage';
+import { ExperiencePage } from 'components/Main/ExperiencePage';
+import { PersonalityPage } from 'components/Main/PersonalityPage';
+import { SkillPage } from 'components/Main/SkillPage';
+import { Page } from 'components/Main/types';
 import React from 'react';
-
-export enum Page {
-  INTRO = 'intro',
-  WORK = 'work'
-}
 
 export const MainRoute: React.FC = () => {
   return (
-    // <Routes>
-    //   <Route path="/" element={<IntroPage />} />
-    //   <Route path={`/${Page.INTRO}`} element={<IntroPage />} />
-    //   <Route path={`/${Page.WORK}`} element={<WorkPage />} />
-    // </Routes>
     <div>
-      <IntroPage id={Page.INTRO} />
-      <WorkPage id={Page.WORK} />
+      <AboutPage id={Page.ABOUT} />
+      <ExperiencePage id={Page.EXPERIENCE} />
+      <EducationPage id={Page.EDUCATION} />
+      <SkillPage id={Page.SKILL} />
+      <PersonalityPage id={Page.PERSONALITY} />
     </div>
   );
 };

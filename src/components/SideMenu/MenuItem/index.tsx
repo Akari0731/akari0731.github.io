@@ -1,8 +1,8 @@
+import { Page } from 'components/Main/types';
 import React from 'react';
 import { useLocation } from 'react-router-dom';
 // @ts-expect-error
 import { HashLink } from 'react-router-hash-link';
-import { Page } from 'routes/MainRoute';
 import './index.css';
 
 interface MenuItemProps {
