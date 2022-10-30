@@ -2,7 +2,7 @@ import { Page } from 'components/Main/types';
 import React from 'react';
 import './index.css';
 import { MenuItem } from './MenuItem';
-import profile from '../assets/profile.jpg';
+import profile from 'assets/profile.jpg';
 
 export const SideMenu: React.FC = () => {
   return (
