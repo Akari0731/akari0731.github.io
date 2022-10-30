@@ -1,14 +1,13 @@
 import React from 'react';
-import { PageProps } from '../types';
 import './index.css';
 
-export const SkillPage: React.FC<PageProps> = ({ id }) => {
+export const SkillPage: React.FC = () => {
   return (
-    <div className="page" id={id}>
-      <div className="header">Skills</div>
+    <>
+      <h2>Skills</h2>
       <div className="detail">
         Full stack developer with 3+ years of experience who loves building web applications.
       </div>
-    </div>
+    </>
   );
 };

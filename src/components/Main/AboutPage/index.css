@@ -1,13 +1,22 @@
-.page {
-  min-height: 100vh;
-}
-
-.header {
-  font-size: 3rem;
-  font: 600;
-  color: #343a40;
-}
-
 .detail {
   color: #868e96;
+}
+
+.social-icons a {
+  display: inline-block;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  color: #fff !important;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  margin-right: 1rem;
+}
+.social-icons a:last-child {
+  margin-right: 0;
+}
+.social-icons a:hover {
+  background-color: #4775d1;
 }

@@ -8,4 +8,5 @@ export enum Page {
 
 export interface PageProps {
   id: Page;
+  children: JSX.Element;
 }
