@@ -5,7 +5,7 @@ export const PersonalityPage: React.FC = () => {
   return (
     <>
       <h2>Personality</h2>
-      <div className="detail">
+      <div>
         Full stack developer with 3+ years of experience who loves building web applications.
       </div>
     </>
