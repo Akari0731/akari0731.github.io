@@ -1,0 +1,39 @@
+.dropdownMenu {
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 4rem;
+  background-color: #4775d1;
+  width: 100vw;
+  visibility: hidden;
+}
+
+@media (min-width: 992px) {
+  .dropdownMenu {
+    visibility: hidden;
+    height: 0;
+  }
+}
+
+.open {
+  visibility: visible;
+}
+
+.item {
+  font-size: 1.25rem;
+  line-height: inherit;
+  padding: 0 2rem;
+  height: 3rem;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 800;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+}
+
+.item:not(.activeItem):hover {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.activeItem {
+  color: white;
+}

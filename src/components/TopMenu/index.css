@@ -1,0 +1,39 @@
+.topMenu {
+  visibility: visible;
+  padding: 0 2rem;
+  height: 4rem;
+  background-color: #4775d1;
+  position: sticky;
+  top: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (min-width: 992px) {
+  .topMenu {
+    visibility: hidden;
+    height: 0;
+  }
+}
+
+.name {
+  color: white;
+  font-size: 1.25rem;
+  line-height: inherit;
+}
+
+.menu {
+  height: 2rem;
+  width: 3rem;
+  border-radius: 0.25rem;
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+}
+
+.menuIcon {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.5);
+}

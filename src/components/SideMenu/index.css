@@ -16,3 +16,9 @@
   border: 0.5rem solid #4d94ff;
   margin-bottom: 1rem;
 }
+
+@media (max-width: 992px) {
+  .sideMenu {
+    visibility: hidden;
+  }
+}

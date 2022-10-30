@@ -5,7 +5,7 @@ import { useLocation } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import './index.css';
 
-interface MenuItemProps {
+export interface MenuItemProps {
   page: Page;
   text: string;
 }

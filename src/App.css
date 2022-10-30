@@ -4,6 +4,13 @@
   grid-template-rows: 1fr;
 }
 
+@media (max-width: 992px) {
+  .container {
+    grid-template-columns: 0 100%;
+    margin-top: -16rem;
+  }
+}
+
 .text-primary {
   color: #4775d1;
 }
@@ -30,10 +37,10 @@
 
 .resume-date {
   text-align: right;
-  margin-top: 0.75rem;
 }
 
-.resume-item {
-  display: grid;
-  grid-template-columns: 1fr 18rem;
+.resume-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
