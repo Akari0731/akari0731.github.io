@@ -11,7 +11,8 @@ export const ExperiencePage: React.FC = () => {
         role="Frontend developer"
         companyName="Metry"
         companyUrl="https://metry.io/en/"
-        period="June 2022 - Present">
+        period="June 2022 - Present"
+      >
         <p>
           - Add features and maintain an administration interface for property owners to manage
           their building&apos;s energy consumption in Angular 13 and Typescript.
@@ -25,7 +26,8 @@ export const ExperiencePage: React.FC = () => {
         role="Hobby project"
         companyName="Oskari's Portfolio"
         companyUrl="https://oskarifriman.com/"
-        period="July 2022 - September 2022">
+        period="July 2022 - September 2022"
+      >
         <p>
           - Built my friend&apos;s Portfolio site in Angular 13 and Typescript.
           <br />
@@ -39,7 +41,8 @@ export const ExperiencePage: React.FC = () => {
         role="Frontend developer"
         companyName="Jetshop"
         companyUrl="https://www.jetshop.se/"
-        period="August 2021 - May 2022">
+        period="August 2021 - May 2022"
+      >
         <p>
           - Built new administration interface for e-commerce owners by implementing features using
           React with Typescript.
@@ -52,7 +55,8 @@ export const ExperiencePage: React.FC = () => {
         role="Frontend/Full stack developer"
         companyName="Minna technologies"
         companyUrl="https://minnatechnologies.com/"
-        period="April 2019 - August 2021">
+        period="April 2019 - August 2021"
+      >
         <>
           <p>
             - Built web application towards end users using React, Typescript and testing with
@@ -63,7 +67,7 @@ export const ExperiencePage: React.FC = () => {
             - Helped product owners by writing SQLs towards MongoDB and make use of data analytics
             tools, Mixpanel, Google Optimize/Analytics and Metabase.
             <br />- Contributed in product discovery phase and development with discussing features
-            and analyzing result.{' '}
+            and analyzing result.
           </p>
 
           <p>
@@ -89,7 +93,8 @@ export const ExperiencePage: React.FC = () => {
                 href="./background/index.html"
                 target="_blank"
                 rel="noreferrer"
-                className="text-primary">
+                className="text-primary"
+              >
                 <FontAwesomeIcon icon={solid('palette')} /> Gradient Background Generater(DOM
                 practice)
               </a>
@@ -99,7 +104,8 @@ export const ExperiencePage: React.FC = () => {
                 href="https://react-pages.github.io/robofriends/"
                 target="_blank"
                 rel="noreferrer"
-                className="text-primary">
+                className="text-primary"
+              >
                 <FontAwesomeIcon icon={solid('robot')} /> Robofriends(React App)
               </a>
             </li>
@@ -110,7 +116,8 @@ export const ExperiencePage: React.FC = () => {
         role="Associate IT consultant"
         companyName="Future Architect.Inc"
         companyUrl="https://www.future.co.jp/en/architect/"
-        period="April 2018 - September 2018">
+        period="April 2018 - September 2018"
+      >
         <p>
           - Worked for a supermarket in Japan, developing functional retail systems with Java, SQL
           and HTML.

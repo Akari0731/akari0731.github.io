@@ -63,7 +63,7 @@
     "typescript": "^4.8.4"
   },
   "lint-staged": {
-    "*.{js, html}": "npm run lint",
+    "*.js": "npm run lint",
     "*.{js,css,md,html,json}": "npm run format"
   }
 }
