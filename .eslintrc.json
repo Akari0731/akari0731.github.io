@@ -16,7 +16,5 @@
     "project": "./tsconfig.json"
   },
   "plugins": ["react"],
-  "rules": {
-    "prettier/prettier": ["error", { "endOfLine": "off" }]
-  }
+  "rules": {}
 }

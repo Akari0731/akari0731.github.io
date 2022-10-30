@@ -113,8 +113,7 @@ export const ExperiencePage: React.FC = () => {
                 href="./background/index.html"
                 target="_blank"
                 rel="noreferrer"
-                className="text-primary"
-              >
+                className="text-primary">
                 <FontAwesomeIcon icon={solid('palette')} /> Gradient Background Generater(DOM
                 practice)
               </a>
@@ -124,8 +123,7 @@ export const ExperiencePage: React.FC = () => {
                 href="https://react-pages.github.io/robofriends/"
                 target="_blank"
                 rel="noreferrer"
-                className="text-primary"
-              >
+                className="text-primary">
                 <FontAwesomeIcon icon={solid('robot')} /> Robofriends(React App)
               </a>
             </li>
