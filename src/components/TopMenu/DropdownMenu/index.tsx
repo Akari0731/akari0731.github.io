@@ -17,7 +17,7 @@ const DropdownItem: React.FC<MenuItemProps & { onClick: () => void }> = ({
   return (
     <HashLink
       smooth
-      className={`item ${isActivePage ? 'active' : ''}`}
+      className={`item ${isActivePage ? 'activeItem' : ''}`}
       to={`#${page}`}
       onClick={onClick}
     >
