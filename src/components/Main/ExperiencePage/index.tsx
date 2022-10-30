@@ -108,22 +108,14 @@ export const ExperiencePage: React.FC = () => {
             <br />- Used Github Pages for deployment.
           </p>
           <ul>
-            <li>
-              <a
-                href="./background/index.html"
-                target="_blank"
-                rel="noreferrer"
-                className="text-primary">
+            <li className="text-primary">
+              <a href="./background/index.html" target="_blank" rel="noreferrer">
                 <FontAwesomeIcon icon={solid('palette')} /> Gradient Background Generater(DOM
                 practice)
               </a>
             </li>
-            <li>
-              <a
-                href="https://react-pages.github.io/robofriends/"
-                target="_blank"
-                rel="noreferrer"
-                className="text-primary">
+            <li className="text-primary">
+              <a href="https://react-pages.github.io/robofriends/" target="_blank" rel="noreferrer">
                 <FontAwesomeIcon icon={solid('robot')} /> Robofriends(React App)
               </a>
             </li>
